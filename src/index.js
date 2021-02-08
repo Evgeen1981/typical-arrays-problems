@@ -21,4 +21,4 @@ exports.avg = function avg(array) {
   } else {
     return array.reduce((elem, currentValue) => elem + currentValue) / array.length;
   }
-};
+}
